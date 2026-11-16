@@ -1,6 +1,6 @@
 cask "talune" do
-  version "1.1.0"
-  sha256 "37a347e2b6ed809c31c0390bda4a5e757cf683a8af3bc0d7b1f282d3ff0b7da6"
+  version "1.2.0"
+  sha256 "add27e28ad79d2637121a8b5f74054b0a06fe38afb9c04997fe2c7c69e0bb5e1"
 
   url "https://github.com/Velora-Audio/talune-app/releases/download/v#{version}/Talune_#{version}_universal.dmg"
   name "Talune"

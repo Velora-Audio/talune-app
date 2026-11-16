@@ -17,7 +17,7 @@ Requisitos: Apple Silicon, macOS Sonoma ou mais novo.
 
 ## Gatekeeper
 
-O build 1.0.0 é ad-hoc, sem assinatura Apple. O cask remove a quarentena na instalação (`xattr -dr com.apple.quarantine` no `postflight`). Se o macOS ainda barrar no primeiro start, abra com botão direito > Abrir, ou libere em Ajustes > Privacidade e Segurança.
+O build é ad-hoc, sem assinatura Apple. O cask remove a quarentena na instalação (`xattr -dr com.apple.quarantine` no `postflight`). Se o macOS ainda barrar no primeiro start, abra com botão direito > Abrir, ou libere em Ajustes > Privacidade e Segurança.
 
 ## Atualizar e desinstalar
 
@@ -31,10 +31,20 @@ brew uninstall --cask --zap talune  # apaga os dados do app (não os itens do Ke
 
 | Versão | Assets | Requisito |
 | --- | --- | --- |
+| 1.2.0 | `Talune_1.2.0_universal.dmg` | macOS arm64, Sonoma+ |
+| 1.2.0 | `Talune_1.2.0_x64-setup.exe`, `Talune_1.2.0_x64_en-US.msi` | Windows 10/11 x64 |
 | 1.1.0 | `Talune_1.1.0_universal.dmg` | macOS arm64, Sonoma+ |
 | 1.1.0 | `Talune_1.1.0_x64-setup.exe`, `Talune_1.1.0_x64_en-US.msi` | Windows 10/11 x64 |
 | 1.0.0 | `Talune_1.0.0_aarch64.dmg` | macOS arm64, Sonoma+ |
 | 1.0.0 | `Talune_1.0.0_x64-setup.exe`, `Talune_1.0.0_x64_en-US.msi` | Windows 10/11 x64 |
+
+## SHA-256 (instaladores 1.2.0)
+
+| Asset | SHA-256 |
+| --- | --- |
+| `Talune_1.2.0_universal.dmg` | `add27e28ad79d2637121a8b5f74054b0a06fe38afb9c04997fe2c7c69e0bb5e1` |
+| `Talune_1.2.0_x64-setup.exe` | `592720d2bc439e2cc557d891647b50a267bcb7ead0881ad849fedf48a97bb8ad` |
+| `Talune_1.2.0_x64_en-US.msi` | `ff5ce0f1c8ba68f4dcd44d9cef45884fb85853b9f4cc4290cc9439fc4c37c1bb` |
 
 ## SHA-256 (instaladores 1.1.0 corrigidos)
 
